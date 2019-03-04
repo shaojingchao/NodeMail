@@ -1,4 +1,4 @@
-con://github.com/shaojingchao/NodeMail.git superagent = require("superagent"); //发送网络请求获取DOM
+const superagent = require("superagent"); //发送网络请求获取DOM
 const cheerio = require("cheerio"); //能够像Jquery一样方便获取DOM节点
 const nodemailer = require("nodemailer"); //发送邮件的node插件
 const ejs = require("ejs"); //ejs模版引擎
