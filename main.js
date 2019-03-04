@@ -1,4 +1,4 @@
-const superagent = require("superagent"); //发送网络请求获取DOM
+con://github.com/shaojingchao/NodeMail.git superagent = require("superagent"); //发送网络请求获取DOM
 const cheerio = require("cheerio"); //能够像Jquery一样方便获取DOM节点
 const nodemailer = require("nodemailer"); //发送邮件的node插件
 const ejs = require("ejs"); //ejs模版引擎
@@ -28,8 +28,8 @@ let EmailTo = "514433024@qq.com";
 let EmailSubject = "一封暖暖的小邮件";
 
 //每日发送时间
-let EmailHour = 20;
-let EmialMinminute= 52;
+let EmailHour = 11;
+let EmialMinminute= 20;
 
 // 爬取数据的url
 const OneUrl = "http://wufazhuce.com/";
