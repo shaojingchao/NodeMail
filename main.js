@@ -28,7 +28,7 @@ let EmailTo = "514433024@qq.com";
 let EmailSubject = "一封暖暖的小邮件";
 
 //每日发送时间
-let EmailHour = 11;
+let EmailHour = 5;
 let EmialMinminute= 20;
 
 // 爬取数据的url
